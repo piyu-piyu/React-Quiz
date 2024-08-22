@@ -1,0 +1,18 @@
+.result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 65vh;
+    text-align: center;
+  }
+
+  .end {
+    width: 45%;
+    align-self: center;
+    padding: 8px;
+  }
+  
+  
+
+
+  

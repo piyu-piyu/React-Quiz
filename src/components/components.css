@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Comic+Neue&display=swap');
+  
+  .question {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .question > button {
+    border: 2px black;
+  }
+  
+  .singleQuestion {
+    width: 95%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid grey;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 2px black;
+  }
+  
+  .options {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 2px black;
+  }
+  
+  .singleOption {
+    width: 46%;
+    height: 50px;
+    padding: 15px 20px;
+    margin: 10px;
+    border: 2px solid black;
+  }
+  
+  @media (max-width: 614px) {
+    .singleOption {
+      width: 100%;
+    }
+  }
+  
+  .controls {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .select {
+    background-color: rgb(7, 207, 0);
+    color: white;
+    box-shadow: 0 0 1px black;
+  }
+  
+  .wrong {
+    background-color: rgb(233, 0, 0);
+    color: white;
+    box-shadow: 0 0 1px black;
+  }
+
+  .title {
+    text-transform: uppercase;
+    font-size: 8vw;
+    font-family: "Balsamiq Sans", serif;
+    cursor: pointer;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: brightness(60%);
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+  }
+  .links > a{
+    margin: 10px;
+    margin-bottom: 0px;
+  }  
+  .footer {
+    backdrop-filter: brightness(60%);
+  }
+
+  .logo {
+  width: 90px;
+  }
+
+  .Quit {
+    border: 2px black;
+  }
+
