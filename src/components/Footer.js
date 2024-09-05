@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className='links'>
-        <a href="https://github.com/B-o-b21" target="_blank" rel="noreferrer" ><GitHubIcon/></a>
+        <a href="https://github.com/piyu-piyu" target="_blank" rel="noreferrer" ><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/piyush-kumar-subudhi-a8820a1a8/" target="_blank" rel="noreferrer" ><LinkedInIcon/></a>
         <a href="mailto:piyushsubudhi2003@gmail.com" target="_blank" rel="noreferrer" ><EmailIcon/></a> 
       </div>
